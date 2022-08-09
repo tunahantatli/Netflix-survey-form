@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Bowlby+One+SC&family=Jost&family=Sorts+Mill+Goudy&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    color: white;
+}
+.container{
+    width: 1240px;
+    height: 1036px;
+    margin: auto;
+    margin-top: 30px;
+    margin-left: 100px;
+    background-color:rgba(0, 0, 0, 0.3);
+}
+
+.title{
+    font-family: 'Bowlby One SC', cursive;
+    text-align: center;
+    color: white;
+}
+span{
+    color: red;
+}
+.description{
+    font-family: 'Sorts Mill Goudy', serif;
+    text-align: center;
+}
+header{
+    text-align: center;
+}
+textarea{
+    resize: none;
+}
