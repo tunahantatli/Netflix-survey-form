@@ -6,13 +6,15 @@
 }
 body{
     color: white;
+    background-image: url(https://s3-alpha-sig.figma.com/img/e8f1/1a7e/97425716c885a8c6bde63a7f9380fd4b?Expires=1661126400&Signature=ZDoAFC6EcpQtprc3FAfJ5Ypg6X0JGKITYdhPBsay3lx0jyvOCSIvLk1cn-X7Uvtsd1hRGdS3XWK5Gn9z0NQL2q5IKGRZ0g8KW2gEe4IqBlEbpXxtxOEDZ8g0WXLpYFA0fNtrdBZvsa8-SmqUIRAeqysQPy4cMOvEcDoAR83X7a2AlZTWFvR1LrVLfNz5xhyIhZ9AyBByEiXrrUAc0ZjbznUklAZAiVJQbbws06ZhBVzbebMpnfUxqwGRvnH-kLS4A88zD-538SamZRm0nsgoQWbUs7ZU~sY1Blf5VG1p1N2MMQgCbEVgGnDhWIrpiHxK7NuhAGW5QdRNVCIygvTBvQ__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .container{
     width: 1240px;
-    height: 1036px;
     margin: auto;
     margin-top: 30px;
-    margin-left: 100px;
     background-color:rgba(0, 0, 0, 0.3);
 }
 
@@ -33,4 +35,48 @@ header{
 }
 textarea{
     resize: none;
+}
+#survey-form-container{
+    width: 500px;
+    background-color: rgba(0, 0, 0, 0.8);
+    margin: auto;
+    padding: 30px 40px;
+    margin-bottom: 30px;
+}
+
+#name,
+#age,
+#email,
+#dropdown,
+#feedback{
+    width: 100%;
+    padding: 12px 10px;
+    margin-top: 10px;
+}
+.input-box{
+    margin-top: 10px;
+}
+#checkbox, #radio{
+    margin-top: 40px;
+}
+#form-button {
+    width: 160px;
+    height: 45px;
+    font-size: 16px;
+    color: white;
+    background-color: #f00;
+    text-align: center;
+    border-radius: 50px;
+    border: none;
+    margin:auto;
+    cursor: pointer;
+}
+#form-button:hover{
+    background-color: white;
+    color: #f00;
+}
+.form-submit{
+    margin: auto;
+    margin-top: 15px;
+    width: 160px;
 }

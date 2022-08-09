@@ -19,7 +19,7 @@
           </h3>
         </div>
       </header>
-      <section id="survey-form">
+      <section id="survey-form-container">
         <form action="result.html" method="get">
           <div class="input-box">
             <label for="name">Name</label>
@@ -103,6 +103,18 @@
             <br />
             <input type="radio" name="gender" id="third-radio" value="other" />
             <label for="third-radio">Other</label>
+          </div>
+          <div class="input-box">
+            <label for="feedbac">Feedback</label>
+            <br />
+            <textarea
+              name="feedback"
+              id="feedback"
+              placeholder="any comment"
+            ></textarea>
+          </div>
+          <div class="form-submit">
+            <button type="submit" id="form-button">Send</button>
           </div>
         </form>
       </section>
